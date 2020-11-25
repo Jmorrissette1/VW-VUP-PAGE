@@ -1,0 +1,87 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#page-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+
+/* COMMON */
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+#hero-section {
+  width: 100%;
+  height: 1220px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(Hero-D.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+#vup-logo {
+  margin-left: 20px;
+  margin-top: 50px;
+}
+
+#hero-buttons {
+  flex-direction: row;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 50px;
+}
+
+#header-section {
+  height: 250px;
+  background-color: #00a1e0;
+}
+#header-text {
+  color: white;
+}
+
+#text-section {
+  margin-left: 125px;
+}
+
+.vup-p1 {
+  color: #162c53;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+#benifits-section {
+  margin-left: 125px;
+}
