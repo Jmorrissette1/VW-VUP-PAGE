@@ -65,19 +65,20 @@ body {
 }
 
 #header-section {
+  width: 100%;
   height: 300px;
   background-color: #00a1e0;
 }
 #header-text {
   margin-bottom: 0;
-  margin-left: 125px;
+  margin-left: 100px;
   color: white;
   font-size: 72px;
 }
 #header-p1 {
   margin-top: 0;
   margin-bottom: 20px;
-  margin-left: 125px;
+  margin-left: 100px;
   color: white;
   font-size: 72px;
 }
@@ -87,7 +88,7 @@ body {
 
 .vup-p1 {
   color: #162c53;
-  font-size: 40px;
+  font-size: 48px;
   text-transform: uppercase;
 }
 
@@ -106,7 +107,7 @@ body {
 }
 @media only screen and (max-width: 1480px) {
   #hero-section {
-    width: 1440px;
+    width: 100%;
     height: 1220px;
     display: block;
     margin-left: auto;
@@ -124,5 +125,14 @@ body {
 
   #benifits-section {
     margin-left: 100px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  #icon-row-1 {
+    display: none;
+  }
+  #icon-row-2 {
+    display: none;
   }
 }
