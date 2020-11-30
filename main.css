@@ -61,18 +61,26 @@ body {
   justify-content: space-around;
   position: absolute;
   bottom: 0;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 
 #header-section {
-  height: 250px;
+  height: 300px;
   background-color: #00a1e0;
 }
 #header-text {
+  margin-bottom: 0;
   margin-left: 125px;
   color: white;
+  font-size: 72px;
 }
-
+#header-p1 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  margin-left: 125px;
+  color: white;
+  font-size: 72px;
+}
 #text-section {
   margin-left: 125px;
 }
@@ -85,4 +93,36 @@ body {
 
 #benifits-section {
   margin-left: 125px;
+}
+
+.hero-button {
+  width: 400px;
+  height: 65px;
+  color: #162c53;
+  border-radius: 30px;
+  font-size: 28px;
+  font-family: "Questrial", sans-serif;
+  font-weight: 500;
+}
+@media only screen and (max-width: 1480px) {
+  #hero-section {
+    width: 1440px;
+    height: 1220px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(Hero-D.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+
+  #text-section {
+    margin-left: 100px;
+  }
+
+  #benifits-section {
+    margin-left: 100px;
+  }
 }
