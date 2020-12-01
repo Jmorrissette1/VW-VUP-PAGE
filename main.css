@@ -70,17 +70,20 @@ body {
   background-color: #00a1e0;
 }
 #header-text {
+  margin-top: 50px;
   margin-bottom: 0;
-  margin-left: 100px;
+  margin-left: 125px;
   color: white;
   font-size: 72px;
+  font-family: "Roboto", sans-serif;
 }
 #header-p1 {
   margin-top: 0;
   margin-bottom: 20px;
-  margin-left: 100px;
+  margin-left: 125px;
   color: white;
   font-size: 72px;
+  font-family: "Roboto", sans-serif;
 }
 #text-section {
   margin-left: 125px;
@@ -93,6 +96,11 @@ body {
   font-size: 32px;
   font-weight: 600;
   text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+}
+
+.overlay {
+  background-color: #162c53;
 }
 
 #benifits-section {
@@ -105,23 +113,23 @@ body {
   color: #162c53;
   border-radius: 30px;
   font-size: 28px;
-  font-family: "Questrial", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
 }
 
 .vup-p2 {
   font-size: 28px;
-  font-family: "Questrial", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 @media only screen and (max-width: 1480px) {
   #hero-section {
-    width: 100%;
+    width: 1440px;
     height: 1220px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    background-image: url(Hero-D.png);
+    background-image: url(https://di-uploads-pod14.dealerinspire.com/haselwoodvw/uploads/2020/12/Hero-D.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
