@@ -87,8 +87,11 @@ body {
 }
 
 .vup-p1 {
+  margin-top: 50px;
+  margin-bottom: 10px;
   color: #162c53;
-  font-size: 48px;
+  font-size: 32px;
+  font-weight: 600;
   text-transform: uppercase;
 }
 
@@ -105,6 +108,12 @@ body {
   font-family: "Questrial", sans-serif;
   font-weight: 500;
 }
+
+.vup-p2 {
+  font-size: 28px;
+  font-family: "Questrial", sans-serif;
+}
+
 @media only screen and (max-width: 1480px) {
   #hero-section {
     width: 100%;
@@ -135,4 +144,7 @@ body {
   #icon-row-2 {
     display: none;
   }
+}
+
+@media only screen and (max-width: 600px) {
 }
