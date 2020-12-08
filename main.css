@@ -44,7 +44,7 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  background-image: url(Hero-D.png);
+  background-image: url(https://di-uploads-pod14.dealerinspire.com/haselwoodvw/uploads/2020/12/Hero-D.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -58,9 +58,10 @@ body {
 
 #hero-buttons {
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
   position: absolute;
   bottom: 0;
+  margin-left: -75px;
   margin-bottom: 100px;
 }
 
@@ -72,7 +73,7 @@ body {
 #header-text {
   margin-top: 50px;
   margin-bottom: 0;
-  margin-left: 125px;
+  margin-left: 120px;
   color: white;
   font-size: 72px;
   font-family: "Roboto", sans-serif;
@@ -80,7 +81,7 @@ body {
 #header-p1 {
   margin-top: 0;
   margin-bottom: 20px;
-  margin-left: 125px;
+  margin-left: 120px;
   color: white;
   font-size: 72px;
   font-family: "Roboto", sans-serif;
@@ -91,7 +92,7 @@ body {
 
 .vup-p1 {
   margin-top: 50px;
-  margin-bottom: 10px;
+  margin-bottom: 50px;
   color: #162c53;
   font-size: 32px;
   font-weight: 600;
@@ -112,9 +113,11 @@ body {
   height: 65px;
   color: #162c53;
   border-radius: 30px;
+  border: none;
   font-size: 28px;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
+  text-transform: uppercase;
 }
 
 .vup-p2 {
@@ -142,6 +145,7 @@ body {
   color: #fff;
   z-index: 2;
 }
+
 @media only screen and (max-width: 1480px) {
   #hero-section {
     width: 1440px;
@@ -157,11 +161,34 @@ body {
   }
 
   #text-section {
-    margin-left: 100px;
+    margin-left: 60px;
   }
 
   #benifits-section {
     margin-left: 100px;
+  }
+
+  .hero-button {
+    width: 300px;
+    height: 50px;
+    font-size: 18px;
+  }
+  #header-text {
+    margin-left: 60px;
+  }
+
+  #header-p1 {
+    margin-left: 60px;
+  }
+
+  .benfiits-p {
+    margin-left: -40px;
+  }
+  #icon-row-1 {
+    margin-left: -100px;
+  }
+  #icon-row-2 {
+    margin-left: -100px;
   }
 }
 
@@ -173,13 +200,13 @@ body {
     display: none;
   }
   #header-text {
-    margin-left: 100px;
-    font-size: 32px;
+    margin-left: 95px;
+    font-size: 48px;
   }
 
   #header-p1 {
-    margin-left: 100px;
-    font-size: 32px;
+    margin-left: 95px;
+    font-size: 48px;
   }
 
   #hero-section {
@@ -198,19 +225,26 @@ body {
     height: auto;
   }
 
+  #benifits-section {
+    margin-left: 0px;
+  }
+  #text-section {
+    margin-left: 0px;
+  }
   .hero-button {
-    width: 200px;
+    width: 170px;
     height: 30px;
     color: #162c53;
     border-radius: 30px;
-    font-size: 18px;
+    font-size: 12px;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
   }
 
   #hero-buttons {
+    margin-left: 35px;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     position: absolute;
     bottom: -175px;
     padding-bottom: 100px;
@@ -222,13 +256,74 @@ body {
     width: 100vw;
     height: 40px;
     align-items: center;
+    background-color: #00a1e0;
+    border: none;
+    color: white;
+    font-size: 18px;
+    padding-top: 5px;
     margin-top: 20px;
+    font-family: "Roboto", sans-serif;
   }
   .icon-img {
     width: 150px;
     height: 150px;
   }
+  .vup-p1 {
+    margin-left: 90px;
+    font-size: 20px;
+  }
+  .vup-p2 {
+    margin-left: 90px;
+    max-width: 500px;
+    font-size: 18px;
+  }
+  #header-section {
+    margin-left: 0;
+  }
+  .benifits-p {
+    margin-top: 20px;
+    margin-left: 60px;
+    justify-content: center;
+    align-items: center;
+  }
+  .benifits-p2 {
+    margin-top: 20px;
+    margin-left: 200px;
+  }
 }
 
 @media only screen and (max-width: 600px) {
+  #hero-section {
+    height: 600px;
+    background-image: url(https://di-uploads-pod14.dealerinspire.com/haselwoodvw/uploads/2020/12/Hero-M.png);
+  }
+  #hero-buttons {
+    flex-direction: column;
+    margin-left: 10px;
+  }
+
+  .hero-button {
+    width: 220px;
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-right: 20px;
+    font-size: 8px;
+  }
+  #header-text {
+    margin-left: 50px;
+    font-size: 28px;
+  }
+  #header-p1 {
+    margin-left: 50px;
+    font-size: 28px;
+  }
+  .vup-p1 {
+    margin-left: 50px;
+  }
+
+  .vup-p2 {
+    margin-left: 50px;
+    max-width: 300px;
+    font-size: 18px;
+  }
 }
